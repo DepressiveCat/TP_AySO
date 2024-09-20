@@ -1,0 +1,104 @@
+pwd
+ls
+ls a
+ls -a
+cd ..
+ls -a
+cd vagrant/
+ssh-keygen
+ls -a
+cd .ssh/
+la -a
+ls
+cat $HOME/.ssh/*.pub~
+cat $HOME/.ssh/*.pub
+cd
+repogit
+cd
+mkdir repogit
+cd repogit/
+git clone git@github.com:DepressiveCat/TP_AySO.git
+cd T
+pwd
+cd TP_AySO/
+pwd
+ls -l
+ls -l
+cat os-release
+ls -a
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep HOME_URL /etc/os-release
+ls -a
+cd .ssh
+ls a
+cd
+cd .ssh
+cd
+cd repogit/
+cd TP_AySO/
+grep home_url /etc/os-release
+grep home_url /etc/os-release
+man greep
+man grep
+grep -i home_url /etc/os-release
+-id
+whoami~
+whoami
+clear
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+-ls
+ls
+git add .
+git config --global user.email "monstersapbe@gmail.com"
+git status
+git config --global user.name "DepressiveCat"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+cd /proc/
+cd
+cd repogit/
+cd TP_AySO/
+ls
+la
+la
+la
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+mkdir lista_ordenada
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+ls
+cat lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i <interfaz> -w <archivo_salida.pcap>" >> comando_dump_net
+ls
+cat comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+rm comando_dump_net
+ls
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i <interfaz> -w <archivo_salida.pcap>" >> comando_dump_net
+ls
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF >> README.md
+Alumno: <Toscano Demian>
+División: <114-2>
+Turno: <Mañana>
+EOF
+ls
+cat README.md
+git add README.md
+git commit -m "docs: agregar datos de alumno al README.md"
+ls
+history -a
